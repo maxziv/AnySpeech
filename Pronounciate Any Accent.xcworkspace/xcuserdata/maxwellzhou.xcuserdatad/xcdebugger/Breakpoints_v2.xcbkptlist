@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pronounciate Any Accent/SpeechListTableViewController.swift"
+            timestampString = "488792080.920374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "SpeechListTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnySpeech.SpeechListTableViewController.speeches.setter : Swift.Array&lt;AnySpeech.Speech&gt;"
+                  moduleName = "AnySpeech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxwellzhou/Dev/Pronounciate%20Any%20Accent/Pronounciate%20Any%20Accent/SpeechListTableViewController.swift"
+                  timestampString = "488794755.186486"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnySpeech.SpeechListTableViewController.init (style : __C.UITableViewStyle) -&gt; AnySpeech.SpeechListTableViewController"
+                  moduleName = "AnySpeech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxwellzhou/Dev/Pronounciate%20Any%20Accent/Pronounciate%20Any%20Accent/SpeechListTableViewController.swift"
+                  timestampString = "488794755.195648"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnySpeech.SpeechListTableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; AnySpeech.SpeechListTableViewController"
+                  moduleName = "AnySpeech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxwellzhou/Dev/Pronounciate%20Any%20Accent/Pronounciate%20Any%20Accent/SpeechListTableViewController.swift"
+                  timestampString = "488794755.19825"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnySpeech.SpeechListTableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;AnySpeech.SpeechListTableViewController&gt;"
+                  moduleName = "AnySpeech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxwellzhou/Dev/Pronounciate%20Any%20Accent/Pronounciate%20Any%20Accent/SpeechListTableViewController.swift"
+                  timestampString = "488794755.201657"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pronounciate Any Accent/SpeechListTableViewController.swift"
+            timestampString = "488795797.505908"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "SpeechListTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pronounciate Any Accent/SpeechListTableViewController.swift"
+            timestampString = "488792633.13002"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

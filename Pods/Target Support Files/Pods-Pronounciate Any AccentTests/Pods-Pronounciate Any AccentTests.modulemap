@@ -1,0 +1,6 @@
+framework module Pods_Pronounciate_Any_AccentTests {
+  umbrella header "Pods-Pronounciate Any AccentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

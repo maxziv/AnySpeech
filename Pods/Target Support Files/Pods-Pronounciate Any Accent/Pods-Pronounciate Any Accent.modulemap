@@ -1,0 +1,6 @@
+framework module Pods_Pronounciate_Any_Accent {
+  umbrella header "Pods-Pronounciate Any Accent-umbrella.h"
+
+  export *
+  module * { export * }
+}
