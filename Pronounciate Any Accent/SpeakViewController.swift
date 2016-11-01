@@ -40,6 +40,7 @@ class SpeakViewController: UIViewController, SFSpeechRecognizerDelegate, UIPicke
         recordBtn.layer.shadowRadius = 2
         recordBtn.layer.shadowOffset = CGSize(width: 2, height: 2)
         
+        textView.isEditable = false
         prepareRecognizer(locale: defaultLocale)
     }
     
@@ -125,7 +126,9 @@ class SpeakViewController: UIViewController, SFSpeechRecognizerDelegate, UIPicke
                 if let result = result {
                     self.textView.text.append("\n");
                     for segment in result.transcriptions[0].segments {
-                        self.textView.text.append(segment.substring + ": " + segment.confidence.description + "\n")
+                        let confidencePercentage: Float = 100 * segment.confidence
+                        let confidencePercentageString = String(format: "%3.1f%%", confidencePercentage)
+                        self.textView.text.append(segment.substring + ": " + confidencePercentageString + "\n")
                     }
                 }
             }
@@ -158,7 +161,7 @@ class SpeakViewController: UIViewController, SFSpeechRecognizerDelegate, UIPicke
     // MARK: - UIPickerViewDelegate
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return locales[row].identifier
+        return locales[row].localizedString(forIdentifier: locales[row].identifier)
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
@@ -178,7 +181,7 @@ class SpeakViewController: UIViewController, SFSpeechRecognizerDelegate, UIPicke
             pickerLabel?.textAlignment = NSTextAlignment.center
         }
         
-        pickerLabel?.text = locales[row].identifier
+        pickerLabel?.text = locales[row].localizedString(forIdentifier: locales[row].identifier)
         
         return pickerLabel!
     }
